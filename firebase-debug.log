@@ -1,0 +1,134 @@
+[debug] [2021-03-06T08:00:42.463Z] ----------------------------------------------------------------------
+[debug] [2021-03-06T08:00:42.467Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-06T08:00:42.467Z] CLI Version:   9.5.0
+[debug] [2021-03-06T08:00:42.468Z] Platform:      win32
+[debug] [2021-03-06T08:00:42.468Z] Node Version:  v10.18.0
+[debug] [2021-03-06T08:00:42.469Z] Time:          Sat Mar 06 2021 13:30:42 GMT+0530 (India Standard Time)
+[debug] [2021-03-06T08:00:42.469Z] ----------------------------------------------------------------------
+[debug] [2021-03-06T08:00:42.469Z] 
+[debug] [2021-03-06T08:00:42.479Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-06T08:00:42.480Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\ReactJS\react-proj1
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whats-app-clone-cf9b7. 
+[debug] [2021-03-06T08:00:46.540Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/whats-app-clone-cf9b7 [none]
+[debug] [2021-03-06T08:00:47.074Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/whats-app-clone-cf9b7 200
+[debug] [2021-03-06T08:00:47.074Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/whats-app-clone-cf9b7 {"projectId":"whats-app-clone-cf9b7","projectNumber":"149618009648","displayName":"whats App clone","name":"projects/whats-app-clone-cf9b7","resources":{"hostingSite":"whats-app-clone-cf9b7","storageBucket":"whats-app-clone-cf9b7.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-03-06T08:00:56.006Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-03-06T08:00:56.148Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-03-06T08:00:56.148Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.10","browserURL":"https://www.gstatic.com/firebasejs/8.2.10/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.10/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.10/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.10/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.10/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.10/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.10/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.10/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.10/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.10/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at F:\ReactJS\react-proj1 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=208366581&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-03-06T08:01:01.134Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"a4ae8fa42a2f6ba9d813","redirect_uri":"http://localhost:9005","state":"208366581"}
+[debug] [2021-03-06T08:01:01.567Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sat, 06 Mar 2021 08:00:58 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"2368dd2a7f8a9a9693f8b033e9bf05b9\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"CE26:51AF:11CCE2:14D242:604336BA"}
+[debug] [2021-03-06T08:01:01.578Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-03-06T08:01:02.036Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-03-06T08:01:02.036Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"green-devil123","id":40141179,"node_id":"MDQ6VXNlcjQwMTQxMTc5","avatar_url":"https://avatars.githubusercontent.com/u/40141179?v=4","gravatar_id":"","url":"https://api.github.com/users/green-devil123","html_url":"https://github.com/green-devil123","followers_url":"https://api.github.com/users/green-devil123/followers","following_url":"https://api.github.com/users/green-devil123/following{/other_user}","gists_url":"https://api.github.com/users/green-devil123/gists{/gist_id}","starred_url":"https://api.github.com/users/green-devil123/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/green-devil123/subscriptions","organizations_url":"https://api.github.com/users/green-devil123/orgs","repos_url":"https://api.github.com/users/green-devil123/repos","events_url":"https://api.github.com/users/green-devil123/events{/privacy}","received_events_url":"https://api.github.com/users/green-devil123/received_events","type":"User","site_admin":false,"name":"Tarun Agarwal","company":null,"blog":"","location":null,"email":null,"hireable":true,"bio":"I like to read or do those things which make me feel good and optimist.","twitter_username":null,"public_repos":5,"public_gists":0,"followers":1,"following":1,"created_at":"2018-06-10T11:46:08Z","updated_at":"2021-03-06T07:58:41Z","private_gists":1,"total_private_repos":0,"owned_private_repos":0,"disk_usage":3474,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as green-devil123 
+[info] 
+[debug] [2021-03-06T08:01:29.453Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2021-03-06T08:01:29.855Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2021-03-06T08:01:29.856Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-03-06T08:01:50.619Z] ----------------------------------------------------------------------
+[debug] [2021-03-06T08:01:50.622Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-06T08:01:50.623Z] CLI Version:   9.5.0
+[debug] [2021-03-06T08:01:50.623Z] Platform:      win32
+[debug] [2021-03-06T08:01:50.623Z] Node Version:  v10.18.0
+[debug] [2021-03-06T08:01:50.624Z] Time:          Sat Mar 06 2021 13:31:50 GMT+0530 (India Standard Time)
+[debug] [2021-03-06T08:01:50.624Z] ----------------------------------------------------------------------
+[debug] [2021-03-06T08:01:50.624Z] 
+[debug] [2021-03-06T08:01:50.634Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-06T08:01:50.634Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\ReactJS\react-proj1
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using whats-app-clone-cf9b7. 
+[debug] [2021-03-06T08:01:54.302Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/whats-app-clone-cf9b7 [none]
+[debug] [2021-03-06T08:01:54.810Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/whats-app-clone-cf9b7 200
+[debug] [2021-03-06T08:01:54.811Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/whats-app-clone-cf9b7 {"projectId":"whats-app-clone-cf9b7","projectNumber":"149618009648","displayName":"whats App clone","name":"projects/whats-app-clone-cf9b7","resources":{"hostingSite":"whats-app-clone-cf9b7","storageBucket":"whats-app-clone-cf9b7.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-03-06T08:02:08.232Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-03-06T08:02:08.375Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-03-06T08:02:08.375Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.10","browserURL":"https://www.gstatic.com/firebasejs/8.2.10/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.10/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.10/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.10/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.10/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.10/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.10/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.10/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.10/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.10/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at F:\ReactJS\react-proj1 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=880628397&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-03-06T08:02:11.935Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"fb4dfbad251a5a32d110","redirect_uri":"http://localhost:9005","state":"880628397"}
+[debug] [2021-03-06T08:02:12.353Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sat, 06 Mar 2021 08:02:09 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"9771683340f8fa94f17c5b255626bb31\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"CE71:35CB:173C:30953:60433701"}
+[debug] [2021-03-06T08:02:12.361Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-03-06T08:02:12.860Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-03-06T08:02:12.861Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"green-devil123","id":40141179,"node_id":"MDQ6VXNlcjQwMTQxMTc5","avatar_url":"https://avatars.githubusercontent.com/u/40141179?v=4","gravatar_id":"","url":"https://api.github.com/users/green-devil123","html_url":"https://github.com/green-devil123","followers_url":"https://api.github.com/users/green-devil123/followers","following_url":"https://api.github.com/users/green-devil123/following{/other_user}","gists_url":"https://api.github.com/users/green-devil123/gists{/gist_id}","starred_url":"https://api.github.com/users/green-devil123/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/green-devil123/subscriptions","organizations_url":"https://api.github.com/users/green-devil123/orgs","repos_url":"https://api.github.com/users/green-devil123/repos","events_url":"https://api.github.com/users/green-devil123/events{/privacy}","received_events_url":"https://api.github.com/users/green-devil123/received_events","type":"User","site_admin":false,"name":"Tarun Agarwal","company":null,"blog":"","location":null,"email":null,"hireable":true,"bio":"I like to read or do those things which make me feel good and optimist.","twitter_username":null,"public_repos":5,"public_gists":0,"followers":1,"following":1,"created_at":"2018-06-10T11:46:08Z","updated_at":"2021-03-06T07:58:41Z","private_gists":1,"total_private_repos":0,"owned_private_repos":0,"disk_usage":3474,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as green-devil123 
+[info] 
+[debug] [2021-03-06T08:02:24.847Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2021-03-06T08:02:25.251Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2021-03-06T08:02:25.251Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
